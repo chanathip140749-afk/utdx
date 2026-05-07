@@ -1,5 +1,4 @@
-task.spawn(function()
-    while task.wait(0.5) do -- ลูปวนทุก 0.5 วินาที ครอบทุกอย่างไว้ข้างใน
+
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local root = character:WaitForChild("HumanoidRootPart")
